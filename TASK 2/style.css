@@ -1,0 +1,60 @@
+
+table
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 12px;
+}
+
+table th, table td
+{
+    padding: 1px 5px;
+    border:1px solid black;
+}
+
+.top_row
+{
+    text-align: center;
+    width: 20px;
+}
+
+.middle_row
+{
+    width: 160px;
+}
+
+.week
+{
+    text-align: center;
+}
+
+.order
+{
+    text-align: center;
+}
+
+.audience
+{
+    border-right: 1px dashed black;
+}
+
+.left_border_none
+{
+    border-left: none;
+}
+
+.top_border_none
+{
+    border-top: none;
+}
+
+.bottom_border_dashed
+{
+    border-bottom: 1px dashed black;
+}
+
+.left_right_border
+{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
