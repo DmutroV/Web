@@ -1,0 +1,61 @@
+.container
+{
+    display:inline-block;
+    overflow: hidden; 
+    height: 360px;
+    width: 240px;
+    border:1px solid rgb(137, 137, 94);
+    border-radius: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+img
+{
+    margin-top: 5px;
+    width: 230px;
+}
+
+p, p a
+{
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.edit_button
+{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 2px;
+    color: blue;
+    background-color: rgb(253, 245, 235);
+}
+
+.delete_button
+{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 2px;
+    color: red;
+    background-color: rgb(253, 245, 235);
+}
+
+.edit_button:hover
+{
+    background-color: blue;
+    color:white;
+}
+
+.delete_button:hover
+{
+    background-color: red;
+    color:white;
+}
