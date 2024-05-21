@@ -1,0 +1,48 @@
+*
+{
+    text-align: center;
+    color:black;
+}
+
+.container
+{
+    position:center;
+    width:40%;
+    height: 40%;
+    overflow: auto;
+    background: yellow;
+    margin: 1px 0px 0px 0px;
+    border: 2px solid rgb(139, 123, 0);
+        
+}
+.center
+{
+    text-align: center;
+}
+
+.menu, .title, .additional, .end
+{
+    position:center;
+    float:left;
+    width: calc(50% - 2px); 
+    text-align: center;
+}
+
+.title, .end
+{
+    float:right;
+    border-left: 2px solid darkblue;
+}
+
+.end
+{
+    float:inline-end
+}
+
+.content
+{
+    clear: both;
+    position: relative;
+    float: none;
+    width: calc(100% - 4px);
+}
