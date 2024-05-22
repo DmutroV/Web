@@ -1,0 +1,7 @@
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+.modal-footer {
+    justify-content: flex-start;
+}
